@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  3 19:55:23 2020
+# Process ID: 6756
+# Current directory: C:/Users/gunit/Downloads/SoundDisplay
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15964 C:\Users\gunit\Downloads\SoundDisplay\SoundDisplay.xpr
+# Log file: C:/Users/gunit/Downloads/SoundDisplay/vivado.log
+# Journal file: C:/Users/gunit/Downloads/SoundDisplay\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/gunit/Downloads/SoundDisplay/SoundDisplay.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Shreyas/Desktop/SoundDisplay' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 886.918 ; gain = 137.238
+update_compile_order -fileset sources_1
+open_project C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/archive_project_summary.txt'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/sim_1/new/fft_test.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/fft_test_behav.wcfg'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/up1/new/up1_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/up2/new/up2_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/up3/new/up3_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/down1/new/down1_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/down2/new/down2_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/down3/new/down3_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/left1/new/left1_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/left2/new/left2_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/left3/new/left3_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/right1/new/right1_ooc.xdc'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.srcs/right3/new/right3_ooc.xdc'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Desktop/EE2026/SoundDisplay-master/SoundDisplay-master/SoundDisplay.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 960.793 ; gain = 53.098
+current_project SoundDisplay
+close_project
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+INFO: [filemgmt 56-326] User Interrupt. Could not getCurrentGraph()
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  3 20:02:08 2020...

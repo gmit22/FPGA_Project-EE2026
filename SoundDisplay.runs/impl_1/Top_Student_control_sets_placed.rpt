@@ -1,0 +1,83 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Tue Mar 31 18:50:56 2020
+| Host         : DESKTOP-G2CJA70 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_Student_control_sets_placed.rpt
+| Design       : Top_Student
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    36 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            1 |
+|     10 |            1 |
+|     12 |            1 |
+|    16+ |           13 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             342 |           76 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             180 |           33 |
+| Yes          | No                    | No                     |              44 |            4 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             158 |           23 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------+--------------------------------+-------------------------------------+------------------+----------------+
+|       Clock Signal      |          Enable Signal         |           Set/Reset Signal          | Slice Load Count | Bel Load Count |
++-------------------------+--------------------------------+-------------------------------------+------------------+----------------+
+| ~clk6p25m_BUFG          |                                |                                     |                1 |              2 |
+| ~audio/J_MIC3_Pin4_OBUF |                                |                                     |                4 |             10 |
+|  J_MIC3_Pin1_OBUF_BUFG  | nolabel_line80/led_counter0    |                                     |                1 |             12 |
+|  debounceC/clk_dff/S[0] |                                |                                     |                3 |             16 |
+|  basysclk_IBUF_BUFG     |                                | J_MIC3_Pin1_OBUF_BUFG               |                3 |             24 |
+|  clk6p25m_BUFG          | nolabel_line71/counter3        | nolabel_line71/counter3[13]_i_1_n_0 |                4 |             26 |
+|  clk6p25m_BUFG          | nolabel_line71/counter4        | nolabel_line71/counter4[14]_i_1_n_0 |                4 |             28 |
+|  clk6p25m_BUFG          |                                | oled/SR[0]                          |                9 |             32 |
+|  J_MIC3_Pin1_OBUF_BUFG  | nolabel_line80/led[15]_i_1_n_0 |                                     |                3 |             32 |
+| ~clk6p25m_BUFG          |                                | debounceC/dff_one/reset             |                4 |             34 |
+| ~clk6p25m_BUFG          | oled/delay[0]_i_1_n_0          | debounceC/dff_one/reset             |                5 |             40 |
+|  J_MIC3_Pin1_OBUF_BUFG  |                                |                                     |                7 |             40 |
+| ~clk6p25m_BUFG          | oled/state                     | debounceC/dff_one/reset             |               10 |             64 |
+|  basysclk_IBUF_BUFG     |                                |                                     |               12 |             84 |
+| ~clk6p25m_BUFG          |                                | oled/spi_word[39]_i_1_n_0           |               17 |             90 |
+|  clk6p25m_BUFG          |                                |                                     |               50 |            192 |
++-------------------------+--------------------------------+-------------------------------------+------------------+----------------+
+
+

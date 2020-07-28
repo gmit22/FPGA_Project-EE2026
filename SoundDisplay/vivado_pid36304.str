@@ -1,0 +1,100 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 36304
+License: Customer
+
+Current time: 	Tue Mar 24 23:59:32 SGT 2020
+Time zone: 	Singapore Time (Asia/Singapore)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 789 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Users/Shreyas/Documents/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Users/Shreyas/Documents/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Shreyas
+User home directory: C:/Users/Shreyas
+User working directory: C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay
+User country: 	SG
+User language: 	en
+User locale: 	en_SG
+
+RDI_BASEROOT: C:/Users/Shreyas/Documents/Vivado
+HDI_APPROOT: C:/Users/Shreyas/Documents/Vivado/2018.2
+RDI_DATADIR: C:/Users/Shreyas/Documents/Vivado/2018.2/data
+RDI_BINDIR: C:/Users/Shreyas/Documents/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Shreyas/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Shreyas/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Shreyas/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Users/Shreyas/Documents/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay/vivado.log
+Vivado journal file location: 	C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay/vivado.jou
+Engine tmp dir: 	C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay/.Xil/Vivado-36304-DESKTOP-G2CJA70
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Users/Shreyas/Documents/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Users/Shreyas/Documents/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Users/Shreyas/Documents/Vivado/2018.2
+XILINX_SDK: C:/Users/Shreyas/Documents/SDK/2018.2
+XILINX_VIVADO: C:/Users/Shreyas/Documents/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Users/Shreyas/Documents/Vivado/2018.2
+
+
+GUI allocated memory:	206 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 518 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\Shreyas\Documents\university\Semester 2\EE2026\SoundDisplay.xpr\SoundDisplay\SoundDisplay.xpr. Version: Vivado v2018.2 
+// bx (ck):  Open Project : addNotify
+// [GUI Memory]: 51 MB (+51485kb) [00:00:05]
+// [Engine Memory]: 485 MB (+357136kb) [00:00:05]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay/SoundDisplay.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay' 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay/SoundDisplay.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay' INFO: [Project 1-313] Project file moved from 'C:/Users/Shreyas/Desktop/SoundDisplay.xpr/SoundDisplay' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Users/Shreyas/Documents/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 MB (+9009kb) [00:00:08]
+// [Engine Memory]: 551 MB (+43323kb) [00:00:08]
+// [GUI Memory]: 70 MB (+4723kb) [00:00:08]
+// [Engine Memory]: 590 MB (+12416kb) [00:00:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 599 MB. GUI used memory: 39 MB. Current time: 3/24/20 11:59:36 PM SGT
+// Project name: SoundDisplay; location: C:/Users/Shreyas/Documents/university/Semester 2/EE2026/SoundDisplay.xpr/SoundDisplay; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 896.898 ; gain = 148.570 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 

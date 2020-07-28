@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Mar 30 21:55:58 2020
+# Process ID: 12248
+# Current directory: C:/Desktop/EE2026/SoundDisplay.xpr/SoundDisplay
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4796 C:\Desktop\EE2026\SoundDisplay.xpr\SoundDisplay\SoundDisplay.xpr
+# Log file: C:/Desktop/EE2026/SoundDisplay.xpr/SoundDisplay/vivado.log
+# Journal file: C:/Desktop/EE2026/SoundDisplay.xpr/SoundDisplay\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Desktop/EE2026/SoundDisplay.xpr/SoundDisplay/SoundDisplay.xpr
+update_compile_order -fileset sources_1
+archive_project C:/Desktop/EE2026/SoundDisplay.xpr/SoundDisplay.xpr.zip -temp_dir C:/Desktop/EE2026/SoundDisplay.xpr/SoundDisplay/.Xil/Vivado-12248-DESKTOP-VH18OBH -force -include_local_ip_cache
